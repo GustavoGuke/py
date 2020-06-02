@@ -38,7 +38,7 @@ saida = input('teste')
 url = pyqrcode.create(qr)
 
 # Tipo do arquivo e tamanho
-url.svg(saida +'.odt',scale = 8)
+url.png(saida +'.png',scale = 8)
 
 
 print(url)
