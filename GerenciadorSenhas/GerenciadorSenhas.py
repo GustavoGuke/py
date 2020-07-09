@@ -49,7 +49,7 @@ class Bd():
 
 
     def delete_password(self):
-        """ deletar o dados """
+        """ deletar os dados """
         for row in self.cursor.execute(''' SELECT * FROM senhas;'''):
             print(row)
 
@@ -60,7 +60,7 @@ class Bd():
 
 
       
-# intanciando a classe
+# instanciando a classe
 my_db = Bd()
 
 # onde a magica acontece
