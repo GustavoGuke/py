@@ -1,0 +1,4 @@
+pagina 273 
+
+tratando erros 
+arquivo pg271_fileNotFoundError.py
